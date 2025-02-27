@@ -14,7 +14,7 @@ readFile('./content/subfolder/first.txt', 'utf-8', (err, result) => {
         }
         const second = result;
         writeFile(
-            './content/subfolder/combined.txt',
+            './content/subfolder/result-combined.txt',
             `here is the result: ${first}, ${second}`,
             (err, result) => {
                 if (err) {
